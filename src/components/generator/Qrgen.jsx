@@ -40,8 +40,8 @@ const Qrgen = () => {
             {sowQr !== '' && 
                 <div>
                     <QRCodeSVG value={sowQr}
-                        bgColor='#faf'
-                        fgColor='blue'
+                        bgColor='#red'
+                        fgColor='black'
                         size={250}
                     />
                     <h4>{sowQr}</h4>
