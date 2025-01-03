@@ -1,0 +1,24 @@
+.navig{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin: 0 auto;
+    background-color: bisque;
+    max-width: 300px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.link{
+    text-decoration: none;
+    color: green;
+    transition: 0.7s all ease;
+}
+.link:hover{
+    font-style: italic;
+    text-shadow: 0 0 5px red;
+    font-size: 25px;
+    transition: 0.7s all ease;
+}
