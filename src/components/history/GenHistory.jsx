@@ -23,9 +23,7 @@ const GenHistory = () => {
                             fontSize: '20px'
                     }}>{el} 
                         <QRCodeSVG value={el}
-                                                bgColor='#faf'
-                                                fgColor='blue'
-                                                size={75}
+                                                size={120}
                                             />
                         </li>
                     </div>

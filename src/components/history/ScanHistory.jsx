@@ -16,9 +16,7 @@ const ScanHistory = () => {
                         style={{display:'flex',gap:'15px',alignItems:'end',marginBottom:'20px',fontSize:'20px'}}
                     >{el}
                         <QRCodeSVG value={el}
-                                                bgColor='#faf'
-                                                fgColor='blue'
-                                                size={75}
+                                                size={120}
                                             />
                     </li>
                 )
